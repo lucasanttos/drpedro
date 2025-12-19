@@ -36,8 +36,8 @@ const DATA = {
   
   // URLs das imagens (Troque pelas URLs reais ou caminhos locais como '/assets/foto.jpg')
   images: {
-    hero: "/public/drpedro2.jpg", // Banner principal
-    profile: "/public/drpedro.jpg", // Foto do Doutor
+    hero: "/drpedro2.jpg", // Banner principal
+    profile: "/drpedro.jpg", // Foto do Doutor
     environment: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000" // Foto do consultório
   }
 };
