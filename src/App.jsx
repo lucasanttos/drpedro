@@ -29,7 +29,7 @@ const DATA = {
     },
     {
       city: "Natal",
-      address: "Rua Presidente José Bento, 721 - Alecrim, Natal ",
+      address: "Rua Presidente José Bento, 721 (Na Clinica Odontomais)- Alecrim, Natal ",
       link: "https://maps.app.goo.gl/hJbLRhmYt4J9barKA"
     }
   ],
