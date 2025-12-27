@@ -1,9 +1,4 @@
-/**
- * IMPORTAÇÕES
- * React: Biblioteca principal.
- * Lucide-react: Ícones.
- * Framer Motion: Biblioteca de animações (REQUER: npm install framer-motion).
- */
+
 import React, { useState, useEffect } from 'react';
 import { 
   Menu, X, Calendar, MapPin, Phone, Instagram, 
@@ -25,17 +20,17 @@ const DATA = {
   whatsapp: "5584991627325",
   instagram: "@pedroelino",
   instagramUrl: "https://instagram.com/pedroelino",
-  // Novos dados de endereço múltiplos
+  //  dados de endereço múltiplos
   locations: [
     {
       city: "São Paulo do Potengi",
-      address: "Rua Bento Urbano, 64, sala 05 (em cima do banco Bradesco)",
-      link: "https://www.google.com/maps/search/?api=1&query=Rua+Bento+Urbano+64+Sao+Paulo+do+Potengi"
+      address: "Rua Bento Urbano, 4026, sala 07 (No shopping de Apriginho)",
+      link: "https://maps.app.goo.gl/8y1LEiuA2ARohon86"
     },
     {
       city: "Natal",
-      address: "Av. Senador Salgado Filho, 1718, sala 611, Tirol Way Office",
-      link: "https://www.google.com/maps/search/?api=1&query=Tirol+Way+Office+Natal"
+      address: "Rua Presidente José Bento, 721 - Alecrim, Natal ",
+      link: "https://maps.app.goo.gl/hJbLRhmYt4J9barKA"
     }
   ],
   colors: {
@@ -46,7 +41,7 @@ const DATA = {
   images: {
     hero: "/drpedro2.jpg",
     profile: "/drpedro.jpg",
-    environment: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000"
+    environment: "/consul.jpeg"
   }
 };
 
@@ -554,7 +549,7 @@ export default function App() {
               <motion.ul variants={staggerItem} className="space-y-4 mb-8">
                 {[
                   "Cirurgião-Dentista formado pela UFRN",
-                  `Especialista em Cirurgia Oral`,
+                  `Aperfeiçoamento em Cirurgia Oral`,
                   "Atendimento Humanizado e Personalizado",
                   "Protocolos rigorosos de biossegurança"
                 ].map((item, idx) => (
@@ -794,7 +789,7 @@ export default function App() {
             <p className="text-sm mt-1">© {new Date().getFullYear()} Todos os direitos reservados.</p>
           </div>
           <div className="flex flex-col items-center md:items-end gap-2">
-            <a href="https://uicode-dev.netlify.app" target="_blank" rel="noreferrer" className="text-sm hover:text-white transition-colors flex items-center gap-2 bg-slate-800 px-4 py-2 rounded-full">
+            <a href="https://uicode.site" target="_blank" rel="noreferrer" className="text-sm hover:text-white transition-colors flex items-center gap-2 bg-slate-800 px-4 py-2 rounded-full">
               <span>Desenvolvido por <strong>UiCode.dev</strong></span>
               <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
             </a>
