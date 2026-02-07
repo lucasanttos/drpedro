@@ -31,6 +31,11 @@ const DATA = {
       city: "Natal",
       address: "Rua Presidente José Bento, 721 (Na Clinica Odontomais)- Alecrim, Natal ",
       link: "https://maps.app.goo.gl/hJbLRhmYt4J9barKA"
+    },
+    {
+      city: "Parnamirim",
+      address: "Av. Ayrton Senna, 2349 - Nova Parnamirim",
+      link: "https://maps.app.goo.gl/Zw5wE55JQzrUzTBe9"
     }
   ],
   colors: {
@@ -464,7 +469,7 @@ export default function App() {
               </motion.h1>
               
               <motion.p variants={staggerItem} className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-lg">
-                Atendimento humanizado e tecnologia de ponta em São Paulo do Potengi. 
+                Atendimento humanizado e tecnologia de ponta em São Paulo do Potengi e Natal. 
                 Recupere sua autoestima e saúde bucal com o Dr. Pedro Elino.
               </motion.p>
               
